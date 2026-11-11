@@ -1,0 +1,13 @@
+[package]
+name = "earn_to_die_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+macroquad = "0.4"
+
+[package.metadata.android]
+package = "com.rust.earntodie"
+label = "Earn To Die Rust"
+min_sdk_version = 21
+target_sdk_version = 33
